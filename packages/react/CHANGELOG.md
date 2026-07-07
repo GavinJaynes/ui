@@ -1,5 +1,13 @@
 # @shadcn/react
 
+## 0.2.1
+
+### Patch Changes
+
+- [#11100](https://github.com/shadcn-ui/ui/pull/11100) [`dd6ce77cf1606eee2839368a97cc35417f763232`](https://github.com/shadcn-ui/ui/commit/dd6ce77cf1606eee2839368a97cc35417f763232) Thanks [@shadcn](https://github.com/shadcn)! - Fix MessageScroller abandoning a newly appended scrollAnchor placement when autoScroll is enabled, so the anchored turn holds at the reading line while the reply streams.
+
+- [#11085](https://github.com/shadcn-ui/ui/pull/11085) [`628e427231ca4bb7f586a69f99fe7809749a53e2`](https://github.com/shadcn-ui/ui/commit/628e427231ca4bb7f586a69f99fe7809749a53e2) Thanks [@devnomic](https://github.com/devnomic)! - Fix MessageScroller firing "ResizeObserver loop completed with undelivered notifications" during streamed content growth by coalescing ResizeObserver callbacks into requestAnimationFrame.
+
 ## 0.2.0
 
 ### Minor Changes
